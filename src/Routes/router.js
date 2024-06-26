@@ -3,6 +3,6 @@ const router = express.Router();
 
 const myController = require("./../Controller/myController");
 
-router.post("/postendpoint", myController.myPostMethod);
+router.post("/newUser", myController.myPostMethod);
 
 module.exports = router;
